@@ -31,3 +31,4 @@ line_length = 79
 [tool.taskipy.tasks]
 lint = "blue --check --diff . && isort --check --diff ."
 test = "pytest -s -x --cov=portfolio -vv"
+server = "python manage.py runserver"
